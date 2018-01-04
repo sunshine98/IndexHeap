@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/CLionProjects/indexheap/indexheap.h
+cassert
+-
+iostream
+-
+
+C:/Users/Administrator/CLionProjects/indexheap/main.cpp
+iostream
+-
+indexheap.h
+C:/Users/Administrator/CLionProjects/indexheap/indexheap.h
+
